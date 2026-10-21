@@ -1,0 +1,49 @@
+# Archivos locales de Visual Studio y otros editores
+.vs/
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.sln.ide
+
+# Resultados de compilación y archivos intermedios
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+*.pdb
+*.cache
+*.log
+*.tlog
+*.tmp
+
+# Resultados de pruebas, cobertura y análisis
+[Tt]est[Rr]esults/
+coverage/
+*.coverage
+*.coveragexml
+*.dotCover
+
+# Paquetes restaurables de NuGet
+packages/
+*.nupkg
+*.snupkg
+
+# Configuración local y credenciales
+.env
+.env.*
+!.env.example
+*.pfx
+*.publishsettings
+*.pubxml.user
+
+# Archivos del sistema operativo
+Thumbs.db
+Desktop.ini
+.DS_Store
